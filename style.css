@@ -1,13 +1,63 @@
 @font-face {
   font-family: aqua;
-  src: url(./dither/aqua.ttf);
+  src: url(./text/aqua.ttf);
 }
 
 * {
   margin: 0;
   padding: 0;
+    font-family: aqua;
   box-sizing: border-box;
 }
+.container1 {
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.navbar {
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.content{
+  width: 100%;
+  position: absolute;
+  top: 10%;
+}
+
+.left-col{
+  margin-left: .5%;
+}
+
+.left-col h1{
+  font-size: 10px;
+  color: white;
+  line-height: 110px;
+  float: left;
+}
+
+
+
 
 #container {
   position: absolute;
@@ -28,17 +78,20 @@
 }
 
 #audio1 {
-  width: 50%;
-  margin: 50px auto;
+  width: 20%;
+  position: absolute;
+  margin-left: .5%;
+  bottom: 500px;
   display: block;
 }
 
 #fileupload {
   position: absolute;
+    margin-left: 1%;
   top: 150px;
   color: white;
 
-  
+
 
 
 

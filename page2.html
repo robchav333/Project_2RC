@@ -18,21 +18,39 @@
 
   <div id='container'>
     <canvas id="canvas1"></canvas>
+    <div class="container1">
+      <div class="navbar">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">canvas1</a></li>
+        <li><a href="page2.html">canvas2</a></li>
+      </ul>
+    </div>
+
 
 
     <audio id="audio1" controls></audio>
-    <input type="file" id='fileupload' accept='audio/*' />
-    <ul>
-      <li class="current-song"><a href="laugh now cry later - same drugs.mp3">Slow</a></li>
-      <li><a href="Sonic Pools.mp3">Rock</a></li>
-      <li><a href="understandher.mp3">Chill</a></li>
-    </ul>
-  </div>
 
 
-  <script src="sound.js">
-  </script>
 
+
+  <select name='fileupload' id='fileupload'>
+    <label for="songs">Choose a Genre:</label>
+          <option value="Sonic _Pools.mp3">Rock</option>
+          <option value="understandher.mp3">Chill</option>
+          <option value="laugh.mp3">Slow</option>
+ </select>
+
+ <div class="content">
+     <div class="left-col">
+       <h1>Choose one of the options below</h1>
+
+ </div>
+
+
+
+   <script src="sound2.js">
+   </script>
 
 </body>
 
